@@ -2,7 +2,7 @@ package com.macuevas.java.jdbc.repositorio;
 
 import java.util.List;
 
-public interface repositorio<T>{
+public interface Repositorio<T>{
 
     List<T> listar();
 
